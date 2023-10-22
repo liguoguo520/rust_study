@@ -1,3 +1,7 @@
+
+mod one_module;
 fn main() {
-    println!("Hello, 11!");
+    one_module::print1();
+
+    one_module::two_module::print2();
 }
